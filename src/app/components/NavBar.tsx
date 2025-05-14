@@ -1,11 +1,11 @@
 const NavBar = () => {
     return (
         <>
-            <nav className="w-full h-18 bg-white text-black flex items-center justify-between px-18 relative">
-                <div className="flex gap-12">
-                    <div className="font-bold">PETMIMOS</div>
-                    <div className="flex gap-4">
-                        <span>Inicio</span>
+            <nav className="w-full h-22 bg-white text-black flex items-center justify-between px-18 relative" id="nav">
+                <div className="flex gap-12 items-center">
+                    <div className="text-2xl" id="logo">PETMIMOS</div>
+                    <div className="flex gap-4 font-normal">
+                        <span>Home</span>
                         <span>Services</span>
                         <span>Contact</span>
                         <span>Produtos</span>
