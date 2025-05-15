@@ -1,6 +1,9 @@
 import "../assets/frame.png";
 import Framer from '../assets/frame.png';
 import ImgMain from '../assets/img.jpeg';
+import ImgColeira from '../assets/coleiras.jpeg';
+import ImgBrinquedos from '../assets/Brinquedos.png';
+import ImgCama from '../assets/cama.jpeg';
 import { Clock, PawPrint, Bone, Dog } from 'lucide-react';
 
 const Home = () => {
@@ -35,20 +38,20 @@ const Home = () => {
         </div>
       </section>
       <section className="w-full h-screen flex  gap-4 justify-center items-center bg-white text-black">
-        <div className="w-[26vw] flex flex-col items-center gap-4">
-          <img className="w-full h-[26vh] rounded-3xl" src="" alt="Blogs" />
+      <div className="w-[26vw] flex flex-col items-center gap-4">
+          <img className="w-full h-[30vh] rounded-3xl object-cover" src={ImgColeira.src} alt="Blogs" />
           <h1 className="text-3xl" id="content">Colorful Pet Collars</h1>
           <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum nisi quas culpa praesentium sequi vel accusantium dolorem rem, maxime illo incidunt harum asperiores, enim, officiis eligendi similique iusto odio?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, earum beatae. Quam, qui exercitationem. Laudantium iusto fugit ab perspiciatis! Eaque, qui voluptatibus! Enim temporibus ullam culpa</p>
           <button>View Our Projects</button>
         </div>
         <div className="w-[26vw] flex flex-col items-center gap-4">
-          <img className="w-full h-[26vh] rounded-3xl" src="" alt="Blogs" />
+          <img className="w-full h-[30vh] rounded-3xl object-cover" src={ImgBrinquedos.src} alt="Blogs" />
           <h1 className="text-3xl" id="content">Interactive Toy Development</h1>
           <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum nisi quas culpa praesentium sequi vel accusantium dolorem rem, maxime illo incidunt harum asperiores, enim, officiis eligendi similique iusto odio?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, earum beatae. Quam, qui exercitationem. Laudantium iusto fugit ab perspiciatis! Eaque, qui voluptatibus! Enim temporibus ullam culpa</p>
           <button>View Our Projects</button>
         </div>
         <div className="w-[26vw] flex flex-col items-center gap-4">
-          <img className="w-full h-[26vh] rounded-3xl" src="" alt="Blogs" />
+          <img className="w-full h-[32vh] rounded-3xl object-cover" src={ImgCama.src} alt="Blogs" />
           <h1 className="text-3xl" id="content">Eco-Friendly Bedding Solutions</h1>
           <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolorum nisi quas culpa praesentium sequi vel accusantium dolorem rem, maxime illo incidunt harum asperiores, enim, officiis eligendi similique iusto odio?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, earum beatae. Quam, qui exercitationem. Laudantium iusto fugit ab perspiciatis! Eaque, qui voluptatibus! Enim temporibus ullam culpa</p>
           <button>View Our Projects</button>
