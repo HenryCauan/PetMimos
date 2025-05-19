@@ -98,8 +98,8 @@ const Home = () => {
       <section className="w-full h-1/2">
         <img className="absolute z-0" src={Framer.src} alt="" />
         <div className="w-full h-screen flex flex-col justify-center items-center">
-          <h1 className="text-white relative text-4xl z-10" id="nav">Discover Premium Pet Supplies Today</h1>
-          <p>Exxplore our wide range of high-quality products, designed to keep your pets happy  and healthy. Visit PETMIMOS for all your pet's needs in Petrolina, PE</p>
+          <h1 className="text-white relative text-4xl z-10 text-center mb-12" id="content">Discover Premium Pet Supplies <br></br> Today</h1>
+          <p className="z-10 text-white w-[30rem] text-[1.2rem] text-center" id="content">Exxplore our wide range of high-quality products, designed to keep your pets happy  and healthy. Visit PETMIMOS for all your pet's needs in Petrolina, PE</p>
           <button>Shop Now</button>
         </div>
       </section>
